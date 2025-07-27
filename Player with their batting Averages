@@ -1,0 +1,3 @@
+SELECT Player_Name, Batting_Average
+FROM Indian_Cricket_Team
+ORDER BY Batting_Average DESC;
