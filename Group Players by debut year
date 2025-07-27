@@ -1,0 +1,4 @@
+SELECT Debut_Year,COUNT(Player_Name) AS Toatl_Players
+FROM Indian_Cricket_Team
+GROUP BY Debut_Year
+ORDER BY Debut_Year;
